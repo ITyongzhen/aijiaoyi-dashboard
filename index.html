@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="dark" />
+    <meta
+      name="description"
+      content="价格行为优先的币种观察雷达，展示当前候选、理由、关键位置与图形。"
+    />
+    <title>AI交易研究雷达</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">PRICE ACTION RADAR</p>
+        <h1>AI交易研究雷达</h1>
+      </div>
+      <div class="health" aria-live="polite">
+        <span id="live-dot" class="health-dot"></span>
+        <div>
+          <strong id="live-status">正在连接行情</strong>
+          <span id="updated-at">正在加载策略快照</span>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="summary" aria-label="市场概况">
+        <article><span>观察池</span><strong id="market-count">--</strong></article>
+        <article><span>当前候选</span><strong id="candidate-count">--</strong></article>
+        <article><span>偏多</span><strong id="long-count" class="positive">--</strong></article>
+        <article><span>偏空</span><strong id="short-count" class="negative">--</strong></article>
+        <article><span>扫描覆盖</span><strong id="scan-count">--</strong></article>
+      </section>
+
+      <section class="workspace">
+        <div class="tabs" role="tablist" aria-label="视图">
+          <button class="tab active" data-view="opportunities" role="tab">机会雷达</button>
+          <button class="tab" data-view="all" role="tab">全部 Top30</button>
+        </div>
+
+        <div class="toolbar">
+          <label class="search-field">
+            <span class="sr-only">搜索币种</span>
+            <input id="search" type="search" placeholder="搜索 BTC、ETH、SOL…" autocomplete="off" />
+          </label>
+          <label>
+            <span>排序</span>
+            <select id="sort">
+              <option value="attention">机会关注度</option>
+              <option value="volume">24h 成交额</option>
+              <option value="updated">最新变化</option>
+              <option value="score">规则匹配度</option>
+              <option value="change">24h 涨跌</option>
+            </select>
+          </label>
+          <label>
+            <span>方向</span>
+            <select id="direction">
+              <option value="all">全部方向</option>
+              <option value="long">偏多</option>
+              <option value="short">偏空</option>
+              <option value="neutral">等待</option>
+            </select>
+          </label>
+          <label>
+            <span>周期</span>
+            <select id="timeframe">
+              <option value="all">全部周期</option>
+              <option value="15m">15分钟</option>
+              <option value="1h">1小时</option>
+              <option value="4h">4小时</option>
+            </select>
+          </label>
+          <label class="favorite-toggle">
+            <input id="favorites-only" type="checkbox" />
+            <span>只看我的关注</span>
+          </label>
+          <button id="refresh" class="refresh-button" type="button">刷新快照</button>
+        </div>
+
+        <div id="notice" class="notice hidden" role="status"></div>
+        <div id="cards" class="cards" aria-live="polite"></div>
+        <div id="empty" class="empty hidden">
+          <strong>当前筛选下没有候选</strong>
+          <span>价格行为没有达到条件时，系统不会为了填满页面而制造机会。</span>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p id="disclaimer">仅供价格行为研究与计划，不构成收益承诺、投资建议或自动下单指令。</p>
+      <p>完成K线决定策略状态；实时价格只用于观察，不参与未完成K线确认。</p>
+    </footer>
+
+    <dialog id="detail-dialog">
+      <button id="dialog-close" class="dialog-close" type="button" aria-label="关闭详情">×</button>
+      <div id="dialog-content"></div>
+    </dialog>
+
+    <template id="card-template">
+      <article class="coin-card">
+        <div class="card-head">
+          <div class="coin-title">
+            <button class="favorite-button" type="button" aria-label="加入我的关注">☆</button>
+            <div>
+              <h2></h2>
+              <span class="rank"></span>
+            </div>
+          </div>
+          <div class="price-block">
+            <strong class="price">--</strong>
+            <span class="change">--</span>
+          </div>
+        </div>
+        <div class="volume-row">
+          <span>24h成交额</span>
+          <strong class="volume">--</strong>
+        </div>
+        <div class="candidate-content"></div>
+      </article>
+    </template>
+
+    <script src="app.js" defer></script>
+  </body>
+</html>

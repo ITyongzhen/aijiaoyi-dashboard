@@ -1,0 +1,2074 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-15T03:45:18+08:00",
+  "timezone": "Asia/Shanghai",
+  "universe_updated_at": "2026-11-15T00:00:13+08:00",
+  "timeframes": [
+    "15m",
+    "1h",
+    "4h"
+  ],
+  "scan": {
+    "scanned_count": 90,
+    "candidate_count": 60,
+    "error_count": 0,
+    "degraded": false,
+    "public_messages": []
+  },
+  "markets": [
+    {
+      "symbol": "BTC-USDT",
+      "display_symbol": "BTC",
+      "rank": 1,
+      "last_price": 65771.2,
+      "change_24h_percent": -4.698,
+      "quote_volume_24h": 14773835597.53,
+      "candidates": [
+        {
+          "id": "BTC-USDT-1h-0bef3e92e294",
+          "timeframe": "1h",
+          "direction": "long",
+          "score": 88,
+          "setup": "三次下推楔形末端（等待向上突破）",
+          "regime": "未分类",
+          "analysis_price": 65529.5,
+          "trigger": 66163.6,
+          "invalidation": 64969.0,
+          "reasons": [
+            "三次下推 67449→66427.5→64969",
+            "三段推进尺寸 15.01ATR→7.71ATR→5.19ATR",
+            "两次可见回调 5.62ATR→2.20ATR；整体跨度 35 根K线；路径效率 0.28",
+            "第三推后第 1 根K线出现多头反转信号；关注位固定在该K线高点"
+          ],
+          "data_as_of_ms": 1794679200000,
+          "source": "Binance U本位永续",
+          "stage": "waiting_confirmation",
+          "importance": "🔥 重点关注",
+          "proximity": "距关注位约 1.01 ATR",
+          "distance_atr": 1.0137327940400733,
+          "missing_confirmation": "反转信号K已完成；只等关注位触发，若价格已走远则不追",
+          "notify_reason": "第三推后的反转信号K刚完成，在启动前提醒",
+          "aligned_timeframes": [
+            "1h"
+          ],
+          "chart_url": "charts/BTC-USDT-1h-0bef3e92e294.png"
+        },
+        {
+          "id": "BTC-USDT-4h-208d4b3bef45",
+          "timeframe": "4h",
+          "direction": "short",
+          "score": 78,
+          "setup": "区间向下突破后的首次回踩候选",
+          "regime": "未分类",
+          "analysis_price": 65718.5,
+          "trigger": 65039.6,
+          "invalidation": 67499.0,
+          "reasons": [
+            "20根K线区间向下突破并收在区间外",
+            "突破后3根内反抽原下沿但收盘受阻",
+            "等待反抽结构再次向下触发，不把突破当场追价"
+          ],
+          "data_as_of_ms": 1794657600000,
+          "source": "Binance U本位永续",
+          "stage": "waiting_confirmation",
+          "importance": "⭐ 较高关注",
+          "proximity": "距关注位约 0.54 ATR，已经较近",
+          "distance_atr": 0.5432982018101954,
+          "missing_confirmation": "等待回踩结束、重新突破关注位并出现跟进",
+          "notify_reason": "评分已达 78 分确认层",
+          "aligned_timeframes": [
+            "4h"
+          ],
+          "chart_url": "charts/BTC-USDT-4h-208d4b3bef45.png"
+        }
+      ]
+    },
+    {
+      "symbol": "ETH-USDT",
+      "display_symbol": "ETH",
+      "rank": 2,
+      "last_price": 1837.19,
+      "change_24h_percent": -5.744,
+      "quote_volume_24h": 10471423885.28,
+      "candidates": [
+        {
+          "id": "ETH-USDT-1h-5bccddd3ced5",
+          "timeframe": "1h",
+          "direction": "long",
+          "score": 82,
+          "setup": "三次下推楔形末端（等待向上突破）",
+          "regime": "未分类",
+          "analysis_price": 1830.1,
+          "trigger": 1857.61,
+          "invalidation": 1809.25,
+          "reasons": [
+            "三次下推 1982.6→1875→1809.25",
+            "三段推进尺寸 6.76ATR→8.52ATR→6.13ATR",
+            "两次可见回调 2.51ATR→2.45ATR；整体跨度 50 根K线；路径效率 0.36",
+            "第三推后第 1 根K线出现多头反转信号；关注位固定在该K线高点"
+          ],
+          "data_as_of_ms": 1794679200000,
+          "source": "Binance U本位永续",
+          "stage": "waiting_confirmation",
+          "importance": "⭐ 较高关注",
+          "proximity": "距关注位约 1.17 ATR",
+          "distance_atr": 1.1720347648261764,
+          "missing_confirmation": "反转信号K已完成；只等关注位触发，若价格已走远则不追",
+          "notify_reason": "第三推后的反转信号K刚完成，在启动前提醒",
+          "aligned_timeframes": [
+            "1h"
+          ],
+          "chart_url": "charts/ETH-USDT-1h-5bccddd3ced5.png"
+        }
+      ]
+    },
+    {
+      "symbol": "SOL-USDT",
+      "display_symbol": "SOL",
+      "rank": 3,
+      "last_price": 72.43,
+      "change_24h_percent": -9.485,
+      "quote_volume_24h": 2298528853.1539,
+      "candidates": [
+        {
+          "id": "SOL-USDT-15m-6403b5e53ca6",
+          "timeframe": "15m",
+          "direction": "short",
+          "score": 87,
+          "setup": "低位旗形末端/紧凑下降蓄势候选",
+          "regime": "未分类",
+          "analysis_price": 72.51,
+          "trigger": 71.61,
+          "invalidation": 73.15,
+          "reasons": [
+            "前段下行背景约 6.17ATR，随后形成8根紧凑停顿",
+            "高点推进 1.31ATR，6/7 段未明显上移",
+            "平均重叠 64%、区间宽度 3.21ATR；等待下破"
+          ],
+          "data_as_of_ms": 1794684600000,
+          "source": "Binance U本位永续",
+          "stage": "waiting_confirmation",
+          "importance": "🔥 重点关注",
+          "proximity": "距关注位约 1.25 ATR",
+          "distance_atr": 1.2508686587908349,
+          "missing_confirmation": "等待突破结构边界和后续跟进，不在形态内部猜方向",
+          "notify_reason": "评分已达 78 分确认层",
+          "aligned_timeframes": [
+            "15m",
+            "1h",
+            "4h"
+          ],
+          "chart_url": "charts/SOL-USDT-15m-6403b5e53ca6.png"
+        },
+        {
+          "id": "SOL-USDT-4h-44012f0b8392",
+          "timeframe": "4h",
+          "direction": "short",
+          "score": 84,
+          "setup": "放量启动后首次收敛/旗形候选",
+          "regime": "未分类",
+          "analysis_price": 73.85,
+          "trigger": 73.11,
+          "invalidation": 76.18,
+          "reasons": [
+            "4根启动段位移 4.21 倍基准波幅",
+            "随后3根收敛区仅占启动区间 41%",
+            "收敛区保留了启动位移的 79%",
+            "启动段均量约为此前中位量的 1.93 倍"
+          ],
+          "data_as_of_ms": 1794657600000,
+          "source": "Binance U本位永续",
+          "stage": "waiting_confirmation",
+          "importance": "⭐ 较高关注",
+          "proximity": "距关注位约 0.37 ATR，已经较近",
+          "distance_atr": 0.367519245095602,
+          "missing_confirmation": "等待突破结构边界和后续跟进，不在形态内部猜方向",
+          "notify_reason": "评分已达 78 分确认层",
+          "aligned_timeframes": [
+            "15m",
+            "1h",
+            "4h"
+          ],
+          "chart_url": "charts/SOL-USDT-4h-44012f0b8392.png"
+        },
+        {
+          "id": "SOL-USDT-1h-763852f76d7c",
+          "timeframe": "1h",
+          "direction": "short",
+          "score": 78,
+          "setup": "区间向下突破后的首次回踩候选",
+          "regime": "未分类",
+          "analysis_price": 72.18,
+          "trigger": 71.94,
+          "invalidation": 73.62,
+          "reasons": [
+            "20根K线区间向下突破并收在区间外",
+            "突破后2根内反抽原下沿但收盘受阻",
+            "等待反抽结构再次向下触发，不把突破当场追价"
+          ],
+          "data_as_of_ms": 1794679200000,
+          "source": "Binance U本位永续",
+          "stage": "waiting_confirmation",
+          "importance": "⭐ 较高关注",
+          "proximity": "距关注位约 0.23 ATR，已经较近",
+          "distance_atr": 0.2258823529411849,
+          "missing_confirmation": "等待回踩结束、重新突破关注位并出现跟进",
+          "notify_reason": "评分已达 78 分确认层",
+          "aligned_timeframes": [
+            "15m",
+            "1h",
+            "4h"
+          ],
+          "chart_url": "charts/SOL-USDT-1h-763852f76d7c.png"
+        }
+      ]
+    },
+    {
+      "symbol": "ZEC-USDT",
+      "display_symbol": "ZEC",
+      "rank": 4,
+      "last_price": 856.34,
+      "change_24h_percent": -10.593,
+      "quote_volume_24h": 1757931335.54,
+      "candidates": [
+        {
+          "id": "ZEC-USDT-4h-8d78a85bfb89",
+          "timeframe": "4h",
+          "direction": "short",
+          "score": 90,
+          "setup": "低位旗形末端/紧凑下降蓄势候选",
+          "regime": "未分类",
+          "analysis_price": 882.9,
+          "trigger": 861.0,
+          "invalidation": 991.97,
+          "reasons": [
+            "前段下行背景约 5.57ATR，随后形成8根紧凑停顿",
+            "高点推进 1.42ATR，6/7 段未明显上移",
+            "平均重叠 83%、区间宽度 3.00ATR；等待下破"
+          ],
+          "data_as_of_ms": 1794657600000,
+          "source": "Binance U本位永续",
+          "stage": "waiting_confirmation",
+          "importance": "🔥 重点关注",
+          "proximity": "距关注位约 0.51 ATR，已经较近",
+          "distance_atr": 0.514609989073349,
+          "missing_confirmation": "等待突破结构边界和后续跟进，不在形态内部猜方向",
+          "notify_reason": "评分已达 78 分确认层",
+          "aligned_timeframes": [
+            "15m",
+            "1h",
+            "4h"
+          ],
+          "chart_url": "charts/ZEC-USDT-4h-8d78a85bfb89.png"
+        },
+        {
+          "id": "ZEC-USDT-1h-b6328a400ae7",
+          "timeframe": "1h",
+          "direction": "short",
+          "score": 89,
+          "setup": "低位旗形末端/紧凑下降蓄势候选",
+          "regime": "未分类",
+          "analysis_price": 854.6,
+          "trigger": 844.67,
+          "invalidation": 894.95,
+          "reasons": [
+            "前段下行背景约 4.27ATR，随后形成6根紧凑停顿",
+            "高点推进 1.19ATR，5/5 段未明显上移",
+            "平均重叠 87%、区间宽度 2.73ATR；等待下破"
+          ],
+          "data_as_of_ms": 1794679200000,
+          "source": "Binance U本位永续",
+          "stage": "waiting_confirmation",
+          "importance": "🔥 重点关注",
+          "proximity": "距关注位约 0.47 ATR，已经较近",
+          "distance_atr": 0.47012593504403277,
+          "missing_confirmation": "等待突破结构边界和后续跟进，不在形态内部猜方向",
+          "notify_reason": "评分已达 78 分确认层",
+          "aligned_timeframes": [
+            "15m",
+            "1h",
+            "4h"
+          ],
+          "chart_url": "charts/ZEC-USDT-1h-b6328a400ae7.png"
+        },
+        {
+          "id": "ZEC-USDT-15m-d780f9a191ac",
+          "timeframe": "15m",
+          "direction": "short",
+          "score": 84,
+          "setup": "低位旗形末端/紧凑下降蓄势候选",
+          "regime": "未分类",
+          "analysis_price": 858.61,
+          "trigger": 844.67,
+          "invalidation": 880.93,
+          "reasons": [
+            "前段下行背景约 2.60ATR，随后形成8根紧凑停顿",
+            "高点推进 1.96ATR，6/7 段未明显上移",
+            "平均重叠 71%、区间宽度 3.29ATR；等待下破"
+          ],
+          "data_as_of_ms": 1794684600000,
+          "source": "Binance U本位永续",
+          "stage": "waiting_confirmation",
+          "importance": "⭐ 较高关注",
+          "proximity": "距关注位约 1.01 ATR",
+          "distance_atr": 1.0111707529377667,
+          "missing_confirmation": "等待突破结构边界和后续跟进，不在形态内部猜方向",
+          "notify_reason": "评分已达 78 分确认层",
+          "aligned_timeframes": [
+            "15m",
+            "1h",
+            "4h"
+          ],
+          "chart_url": "charts/ZEC-USDT-15m-d780f9a191ac.png"
+        }
+      ]
+    },
+    {
+      "symbol": "AKE-USDT",
+      "display_symbol": "AKE",
+      "rank": 5,
+      "last_price": 0.012718,
+      "change_24h_percent": 5.308,
+      "quote_volume_24h": 950602496.767832,
+      "candidates": [
+        {
+          "id": "AKE-USDT-1h-be19f9496ff4",
+          "timeframe": "1h",
+          "direction": "short",
+          "score": 86,
+          "setup": "低位旗形末端/紧凑下降蓄势候选",
+          "regime": "未分类",
+          "analysis_price": 0.012108,
+          "trigger": 0.01122,
+          "invalidation": 0.013997,
+          "reasons": [
+            "前段下行背景约 3.42ATR，随后形成8根紧凑停顿",
+            "高点推进 0.95ATR，6/7 段未明显上移",
+            "平均重叠 81%、区间宽度 1.74ATR；等待下破"
+          ],
+          "data_as_of_ms": 1794679200000,
+          "source": "Binance U本位永续",
+          "stage": "waiting_confirmation",
+          "importance": "🔥 重点关注",
+          "proximity": "距关注位约 0.45 ATR，已经较近",
+          "distance_atr": 0.45077286225538726,
+          "missing_confirmation": "等待突破结构边界和后续跟进，不在形态内部猜方向",
+          "notify_reason": "评分已达 78 分确认层",
+          "aligned_timeframes": [
+            "1h"
+          ],
+          "chart_url": "charts/AKE-USDT-1h-be19f9496ff4.png"
+        },
+        {
+          "id": "AKE-USDT-15m-6f5a917b945c",
+          "timeframe": "15m",
+          "direction": "neutral",
+          "score": 74,
+          "setup": "长期横盘压缩/箱体末端",
+          "regime": "未分类",
+          "analysis_price": 0.012725,
+          "trigger": 0.013997,
+          "invalidation": 0.01122,
+          "reasons": [
+            "连续 36 根K线方向效率仅 0.06",
+            "平均K线重叠率 86%，方向反转占比 59%",
+            "整个箱体高度约 4.4 倍中位K线波幅",
+            "等待箱体任一侧有效突破和跟进，不预判方向"
+          ],
+          "data_as_of_ms": 1794684600000,
+          "source": "Binance U本位永续",
+          "stage": "forming",
+          "importance": "👀 提前留意",
+          "proximity": "距关注位约 2.06 ATR",
+          "distance_atr": 2.055591467356175,
+          "missing_confirmation": "等待任一边界突破，且后续完成K线给出跟进",
+          "notify_reason": "形态尚在形成，但价格已进入0.75 ATR关注区",
+          "aligned_timeframes": [
+            "15m"
+          ],
+          "chart_url": "charts/AKE-USDT-15m-6f5a917b945c.png"
+        }
+      ]
+    },
+    {
+      "symbol": "XRP-USDT",
+      "display_symbol": "XRP",
+      "rank": 6,
+      "last_price": 0.9555,
+      "change_24h_percent": -6.989,
+      "quote_volume_24h": 910102847.8213,
+      "candidates": [
+        {
+          "id": "XRP-USDT-15m-e323b724f61f",
+          "timeframe": "15m",
+          "direction": "short",
+          "score": 88,
+          "setup": "低位旗形末端/紧凑下降蓄势候选",
+          "regime": "未分类",
+          "analysis_price": 0.9561,
+          "trigger": 0.9457,
+          "invalidation": 0.9662,
+          "reasons": [
+            "前段下行背景约 6.40ATR，随后形成8根紧凑停顿",
+            "高点推进 1.63ATR，6/7 段未明显上移",
+            "平均重叠 62%、区间宽度 3.42ATR；等待下破"
+          ],
+          "data_as_of_ms": 1794684600000,
+          "source": "Binance U本位永续",
+          "stage": "waiting_confirmation",
+          "importance": "🔥 重点关注",
+          "proximity": "距关注位约 1.09 ATR",
+          "distance_atr": 1.0855949895615844,
+          "missing_confirmation": "等待突破结构边界和后续跟进，不在形态内部猜方向",
+          "notify_reason": "评分已达 78 分确认层",
+          "aligned_timeframes": [
+            "15m",
+            "1h",
+            "4h"
+          ],
+          "chart_url": "charts/XRP-USDT-15m-e323b724f61f.png"
+        },
+        {
+          "id": "XRP-USDT-1h-67839af65263",
+          "timeframe": "1h",
+          "direction": "short",
+          "score": 78,
+          "setup": "区间向下突破后的首次回踩候选",
+          "regime": "未分类",
+          "analysis_price": 0.9543,
+          "trigger": 0.9452,
+          "invalidation": 0.9699,
+          "reasons": [
+            "20根K线区间向下突破并收在区间外",
+            "突破后2根内反抽原下沿但收盘受阻",
+            "等待反抽结构再次向下触发，不把突破当场追价"
+          ],
+          "data_as_of_ms": 1794679200000,
+          "source": "Binance U本位永续",
+          "stage": "waiting_confirmation",
+          "importance": "⭐ 较高关注",
+          "proximity": "距关注位约 0.71 ATR，已经较近",
+          "distance_atr": 0.712050078247261,
+          "missing_confirmation": "等待回踩结束、重新突破关注位并出现跟进",
+          "notify_reason": "评分已达 78 分确认层",
+          "aligned_timeframes": [
+            "15m",
+            "1h",
+            "4h"
+          ],
+          "chart_url": "charts/XRP-USDT-1h-67839af65263.png"
+        },
+        {
+          "id": "XRP-USDT-4h-71672e102b01",
+          "timeframe": "4h",
+          "direction": "short",
+          "score": 77,
+          "setup": "区间向下突破后的首次回踩候选",
+          "regime": "未分类",
+          "analysis_price": 0.9713,
+          "trigger": 0.9663,
+          "invalidation": 0.9997,
+          "reasons": [
+            "20根K线区间向下突破并收在区间外",
+            "突破后3根内反抽原下沿但收盘受阻",
+            "等待反抽结构再次向下触发，不把突破当场追价"
+          ],
+          "data_as_of_ms": 1794657600000,
+          "source": "Binance U本位永续",
+          "stage": "forming",
+          "importance": "👀 提前留意",
+          "proximity": "距关注位约 0.21 ATR，已经较近",
+          "distance_atr": 0.20881186051367726,
+          "missing_confirmation": "等待回踩结束、重新突破关注位并出现跟进",
+          "notify_reason": "形态尚在形成，但价格已进入0.75 ATR关注区",
+          "aligned_timeframes": [
+            "15m",
+            "1h",
+            "4h"
+          ],
+          "chart_url": "charts/XRP-USDT-4h-71672e102b01.png"
+        }
+      ]
+    },
+    {
+      "symbol": "HYPE-USDT",
+      "display_symbol": "HYPE",
+      "rank": 7,
+      "last_price": 65.423,
+      "change_24h_percent": -9.946,
+      "quote_volume_24h": 861948209.53381,
+      "candidates": [
+        {
+          "id": "HYPE-USDT-4h-b1dbbe237991",
+          "timeframe": "4h",
+          "direction": "short",
+          "score": 79,
+          "setup": "放量启动后首次收敛/旗形候选",
+          "regime": "未分类",
+          "analysis_price": 67.69,
+          "trigger": 66.538,
+          "invalidation": 69.95,
+          "reasons": [
+            "4根启动段位移 3.96 倍基准波幅",
+            "随后3根收敛区仅占启动区间 41%",
+            "收敛区保留了启动位移的 60%",
+            "启动段均量约为此前中位量的 1.72 倍"
+          ],
+          "data_as_of_ms": 1794657600000,
+          "source": "Binance U本位永续",
+          "stage": "waiting_confirmation",
+          "importance": "⭐ 较高关注",
+          "proximity": "距关注位约 0.53 ATR，已经较近",
+          "distance_atr": 0.5333209879400943,
+          "missing_confirmation": "等待突破结构边界和后续跟进，不在形态内部猜方向",
+          "notify_reason": "评分已达 78 分确认层",
+          "aligned_timeframes": [
+            "1h",
+            "4h"
+          ],
+          "chart_url": "charts/HYPE-USDT-4h-b1dbbe237991.png"
+        },
+        {
+          "id": "HYPE-USDT-1h-0cec539423d2",
+          "timeframe": "1h",
+          "direction": "short",
+          "score": 78,
+          "setup": "区间向下突破后的首次回踩候选",
+          "regime": "未分类",
+          "analysis_price": 65.551,
+          "trigger": 64.45,
+          "invalidation": 66.834,
+          "reasons": [
+            "20根K线区间向下突破并收在区间外",
+            "突破后2根内反抽原下沿但收盘受阻",
+            "等待反抽结构再次向下触发，不把突破当场追价"
+          ],
+          "data_as_of_ms": 1794679200000,
+          "source": "Binance U本位永续",
+          "stage": "waiting_confirmation",
+          "importance": "⭐ 较高关注",
+          "proximity": "距关注位约 0.87 ATR",
+          "distance_atr": 0.8688789803890603,
+          "missing_confirmation": "等待回踩结束、重新突破关注位并出现跟进",
+          "notify_reason": "评分已达 78 分确认层",
+          "aligned_timeframes": [
+            "1h",
+            "4h"
+          ],
+          "chart_url": "charts/HYPE-USDT-1h-0cec539423d2.png"
+        }
+      ]
+    },
+    {
+      "symbol": "BNB-USDT",
+      "display_symbol": "BNB",
+      "rank": 8,
+      "last_price": 591.05,
+      "change_24h_percent": -7.469,
+      "quote_volume_24h": 528162267.304,
+      "candidates": [
+        {
+          "id": "BNB-USDT-15m-005188ab1e8b",
+          "timeframe": "15m",
+          "direction": "short",
+          "score": 85,
+          "setup": "低位旗形末端/紧凑下降蓄势候选",
+          "regime": "未分类",
+          "analysis_price": 591.29,
+          "trigger": 586.88,
+          "invalidation": 594.15,
+          "reasons": [
+            "前段下行背景约 5.36ATR，随后形成8根紧凑停顿",
+            "高点推进 0.68ATR，6/7 段未明显上移",
+            "平均重叠 64%、区间宽度 1.83ATR；等待下破"
+          ],
+          "data_as_of_ms": 1794684600000,
+          "source": "Binance U本位永续",
+          "stage": "waiting_confirmation",
+          "importance": "🔥 重点关注",
+          "proximity": "距关注位约 1.03 ATR",
+          "distance_atr": 1.032424206953057,
+          "missing_confirmation": "等待突破结构边界和后续跟进，不在形态内部猜方向",
+          "notify_reason": "评分已达 78 分确认层",
+          "aligned_timeframes": [
+            "15m",
+            "1h",
+            "4h"
+          ],
+          "chart_url": "charts/BNB-USDT-15m-005188ab1e8b.png"
+        },
+        {
+          "id": "BNB-USDT-4h-8f002fa38953",
+          "timeframe": "4h",
+          "direction": "short",
+          "score": 78,
+          "setup": "区间向下突破后的首次回踩候选",
+          "regime": "未分类",
+          "analysis_price": 598.85,
+          "trigger": 593.69,
+          "invalidation": 622.63,
+          "reasons": [
+            "20根K线区间向下突破并收在区间外",
+            "突破后3根内反抽原下沿但收盘受阻",
+            "等待反抽结构再次向下触发，不把突破当场追价"
+          ],
+          "data_as_of_ms": 1794657600000,
+          "source": "Binance U本位永续",
+          "stage": "waiting_confirmation",
+          "importance": "⭐ 较高关注",
+          "proximity": "距关注位约 0.42 ATR，已经较近",
+          "distance_atr": 0.4163304824915252,
+          "missing_confirmation": "等待回踩结束、重新突破关注位并出现跟进",
+          "notify_reason": "评分已达 78 分确认层",
+          "aligned_timeframes": [
+            "15m",
+            "1h",
+            "4h"
+          ],
+          "chart_url": "charts/BNB-USDT-4h-8f002fa38953.png"
+        },
+        {
+          "id": "BNB-USDT-1h-1ba201184b94",
+          "timeframe": "1h",
+          "direction": "short",
+          "score": 77,
+          "setup": "区间向下突破后的首次回踩候选",
+          "regime": "未分类",
+          "analysis_price": 588.96,
+          "trigger": 584.31,
+          "invalidation": 594.28,
+          "reasons": [
+            "20根K线区间向下突破并收在区间外",
+            "突破后2根内反抽原下沿但收盘受阻",
+            "等待反抽结构再次向下触发，不把突破当场追价"
+          ],
+          "data_as_of_ms": 1794679200000,
+          "source": "Binance U本位永续",
+          "stage": "forming",
+          "importance": "👀 提前留意",
+          "proximity": "距关注位约 0.70 ATR，已经较近",
+          "distance_atr": 0.6976220838646903,
+          "missing_confirmation": "等待回踩结束、重新突破关注位并出现跟进",
+          "notify_reason": "形态尚在形成，但价格已进入0.75 ATR关注区",
+          "aligned_timeframes": [
+            "15m",
+            "1h",
+            "4h"
+          ],
+          "chart_url": "charts/BNB-USDT-1h-1ba201184b94.png"
+        }
+      ]
+    },
+    {
+      "symbol": "DOGE-USDT",
+      "display_symbol": "DOGE",
+      "rank": 9,
+      "last_price": 0.06002,
+      "change_24h_percent": -8.548,
+      "quote_volume_24h": 406545113.57441,
+      "candidates": [
+        {
+          "id": "DOGE-USDT-15m-0f578cda7ee8",
+          "timeframe": "15m",
+          "direction": "long",
+          "score": 85,
+          "setup": "区间下沿假突破反转 + 三次下推楔形共振",
+          "regime": "未分类",
+          "analysis_price": 0.0601,
+          "trigger": 0.0601,
+          "invalidation": 0.05936,
+          "reasons": [
+            "价格刺破20根K线区间下沿后重新收回区间",
+            "三次下推 0.06292→0.06202→0.05936",
+            "从假突破最低点反弹 1.32 倍基准波幅",
+            "这是反转观察，不代表下根K线必然继续上涨",
+            "三段推进尺寸 6.82ATR→8.35ATR→7.29ATR",
+            "两次可见回调 6.71ATR→2.45ATR；整体跨度 158 根K线；路径效率 0.13"
+          ],
+          "data_as_of_ms": 1794684600000,
+          "source": "Binance U本位永续",
+          "stage": "waiting_confirmation",
+          "importance": "🔥 重点关注",
+          "proximity": "距关注位约 0.00 ATR，已经较近",
+          "distance_atr": 0.0,
+          "missing_confirmation": "反转信号K已完成；只等关注位触发，若价格已走远则不追",
+          "notify_reason": "第三推后的反转信号K刚完成，在启动前提醒",
+          "aligned_timeframes": [
+            "15m"
+          ],
+          "chart_url": "charts/DOGE-USDT-15m-0f578cda7ee8.png"
+        },
+        {
+          "id": "DOGE-USDT-1h-485caac0cf0e",
+          "timeframe": "1h",
+          "direction": "short",
+          "score": 78,
+          "setup": "区间向下突破后的首次回踩候选",
+          "regime": "未分类",
+          "analysis_price": 0.05997,
+          "trigger": 0.05949,
+          "invalidation": 0.06099,
+          "reasons": [
+            "20根K线区间向下突破并收在区间外",
+            "突破后2根内反抽原下沿但收盘受阻",
+            "等待反抽结构再次向下触发，不把突破当场追价"
+          ],
+          "data_as_of_ms": 1794679200000,
+          "source": "Binance U本位永续",
+          "stage": "waiting_confirmation",
+          "importance": "⭐ 较高关注",
+          "proximity": "距关注位约 0.54 ATR，已经较近",
+          "distance_atr": 0.541455160744502,
+          "missing_confirmation": "等待回踩结束、重新突破关注位并出现跟进",
+          "notify_reason": "评分已达 78 分确认层",
+          "aligned_timeframes": [
+            "1h",
+            "4h"
+          ],
+          "chart_url": "charts/DOGE-USDT-1h-485caac0cf0e.png"
+        },
+        {
+          "id": "DOGE-USDT-4h-8f7417a7e7b3",
+          "timeframe": "4h",
+          "direction": "short",
+          "score": 78,
+          "setup": "区间向下突破后的首次回踩候选",
+          "regime": "未分类",
+          "analysis_price": 0.06109,
+          "trigger": 0.06031,
+          "invalidation": 0.06337,
+          "reasons": [
+            "20根K线区间向下突破并收在区间外",
+            "突破后3根内反抽原下沿但收盘受阻",
+            "等待反抽结构再次向下触发，不把突破当场追价"
+          ],
+          "data_as_of_ms": 1794657600000,
+          "source": "Binance U本位永续",
+          "stage": "waiting_confirmation",
+          "importance": "⭐ 较高关注",
+          "proximity": "距关注位约 0.46 ATR，已经较近",
+          "distance_atr": 0.4642857142857119,
+          "missing_confirmation": "等待回踩结束、重新突破关注位并出现跟进",
+          "notify_reason": "评分已达 78 分确认层",
+          "aligned_timeframes": [
+            "1h",
+            "4h"
+          ],
+          "chart_url": "charts/DOGE-USDT-4h-8f7417a7e7b3.png"
+        }
+      ]
+    },
+    {
+      "symbol": "SHELL-USDT",
+      "display_symbol": "SHELL",
+      "rank": 10,
+      "last_price": 0.02739,
+      "change_24h_percent": -22.032,
+      "quote_volume_24h": 295809678.92492,
+      "candidates": [
+        {
+          "id": "SHELL-USDT-1h-93b872f33a8b",
+          "timeframe": "1h",
+          "direction": "short",
+          "score": 89,
+          "setup": "低位旗形末端/紧凑下降蓄势候选",
+          "regime": "未分类",
+          "analysis_price": 0.02667,
+          "trigger": 0.02576,
+          "invalidation": 0.03089,
+          "reasons": [
+            "前段下行背景约 6.57ATR，随后形成6根紧凑停顿",
+            "高点推进 1.20ATR，5/5 段未明显上移",
+            "平均重叠 75%、区间宽度 1.58ATR；等待下破"
+          ],
+          "data_as_of_ms": 1794679200000,
+          "source": "Binance U本位永续",
+          "stage": "waiting_confirmation",
+          "importance": "🔥 重点关注",
+          "proximity": "距关注位约 0.31 ATR，已经较近",
+          "distance_atr": 0.3143350604490492,
+          "missing_confirmation": "等待突破结构边界和后续跟进，不在形态内部猜方向",
+          "notify_reason": "评分已达 78 分确认层",
+          "aligned_timeframes": [
+            "1h"
+          ],
+          "chart_url": "charts/SHELL-USDT-1h-93b872f33a8b.png"
+        }
+      ]
+    },
+    {
+      "symbol": "NEAR-USDT",
+      "display_symbol": "NEAR",
+      "rank": 11,
+      "last_price": 3.095,
+      "change_24h_percent": -12.719,
+      "quote_volume_24h": 377541941.517,
+      "candidates": [
+        {
+          "id": "NEAR-USDT-15m-e7c76607c111",
+          "timeframe": "15m",
+          "direction": "short",
+          "score": 88,
+          "setup": "低位旗形末端/紧凑下降蓄势候选",
+          "regime": "未分类",
+          "analysis_price": 3.099,
+          "trigger": 3.061,
+          "invalidation": 3.167,
+          "reasons": [
+            "前段下行背景约 6.70ATR，随后形成8根紧凑停顿",
+            "高点推进 1.97ATR，6/7 段未明显上移",
+            "平均重叠 64%、区间宽度 3.21ATR；等待下破"
+          ],
+          "data_as_of_ms": 1794684600000,
+          "source": "Binance U本位永续",
+          "stage": "waiting_confirmation",
+          "importance": "🔥 重点关注",
+          "proximity": "距关注位约 0.81 ATR",
+          "distance_atr": 0.8145766345123331,
+          "missing_confirmation": "等待突破结构边界和后续跟进，不在形态内部猜方向",
+          "notify_reason": "评分已达 78 分确认层",
+          "aligned_timeframes": [
+            "15m",
+            "1h"
+          ],
+          "chart_url": "charts/NEAR-USDT-15m-e7c76607c111.png"
+        },
+        {
+          "id": "NEAR-USDT-1h-00d836009e71",
+          "timeframe": "1h",
+          "direction": "short",
+          "score": 78,
+          "setup": "区间向下突破后的首次回踩候选",
+          "regime": "未分类",
+          "analysis_price": 3.103,
+          "trigger": 3.072,
+          "invalidation": 3.19,
+          "reasons": [
+            "20根K线区间向下突破并收在区间外",
+            "突破后2根内反抽原下沿但收盘受阻",
+            "等待反抽结构再次向下触发，不把突破当场追价"
+          ],
+          "data_as_of_ms": 1794679200000,
+          "source": "Binance U本位永续",
+          "stage": "waiting_confirmation",
+          "importance": "⭐ 较高关注",
+          "proximity": "距关注位约 0.49 ATR，已经较近",
+          "distance_atr": 0.48934490923441404,
+          "missing_confirmation": "等待回踩结束、重新突破关注位并出现跟进",
+          "notify_reason": "评分已达 78 分确认层",
+          "aligned_timeframes": [
+            "15m",
+            "1h"
+          ],
+          "chart_url": "charts/NEAR-USDT-1h-00d836009e71.png"
+        }
+      ]
+    },
+    {
+      "symbol": "1000PEPE-USDT",
+      "display_symbol": "1000PEPE",
+      "rank": 12,
+      "last_price": 0.0039418,
+      "change_24h_percent": -11.532,
+      "quote_volume_24h": 353035290.3471449,
+      "candidates": [
+        {
+          "id": "1000PEPE-USDT-1h-df30cd3e40af",
+          "timeframe": "1h",
+          "direction": "short",
+          "score": 78,
+          "setup": "区间向下突破后的首次回踩候选",
+          "regime": "未分类",
+          "analysis_price": 0.0039344,
+          "trigger": 0.003847,
+          "invalidation": 0.0040054,
+          "reasons": [
+            "20根K线区间向下突破并收在区间外",
+            "突破后2根内反抽原下沿但收盘受阻",
+            "等待反抽结构再次向下触发，不把突破当场追价"
+          ],
+          "data_as_of_ms": 1794679200000,
+          "source": "Binance U本位永续",
+          "stage": "waiting_confirmation",
+          "importance": "⭐ 较高关注",
+          "proximity": "距关注位约 0.97 ATR",
+          "distance_atr": 0.9657992154262676,
+          "missing_confirmation": "等待回踩结束、重新突破关注位并出现跟进",
+          "notify_reason": "评分已达 78 分确认层",
+          "aligned_timeframes": [
+            "1h",
+            "4h"
+          ],
+          "chart_url": "charts/1000PEPE-USDT-1h-df30cd3e40af.png"
+        },
+        {
+          "id": "1000PEPE-USDT-4h-14766ebbc31c",
+          "timeframe": "4h",
+          "direction": "short",
+          "score": 77,
+          "setup": "区间向下突破后的首次回踩候选",
+          "regime": "未分类",
+          "analysis_price": 0.0040475,
+          "trigger": 0.0040267,
+          "invalidation": 0.0043417,
+          "reasons": [
+            "20根K线区间向下突破并收在区间外",
+            "突破后3根内反抽原下沿但收盘受阻",
+            "等待反抽结构再次向下触发，不把突破当场追价"
+          ],
+          "data_as_of_ms": 1794657600000,
+          "source": "Binance U本位永续",
+          "stage": "forming",
+          "importance": "👀 提前留意",
+          "proximity": "距关注位约 0.11 ATR，已经较近",
+          "distance_atr": 0.11371091187404132,
+          "missing_confirmation": "等待回踩结束、重新突破关注位并出现跟进",
+          "notify_reason": "形态尚在形成，但价格已进入0.75 ATR关注区",
+          "aligned_timeframes": [
+            "1h",
+            "4h"
+          ],
+          "chart_url": "charts/1000PEPE-USDT-4h-14766ebbc31c.png"
+        }
+      ]
+    },
+    {
+      "symbol": "SOPH-USDT",
+      "display_symbol": "SOPH",
+      "rank": 13,
+      "last_price": 0.002307,
+      "change_24h_percent": 28.452,
+      "quote_volume_24h": 181663429.740452,
+      "candidates": []
+    },
+    {
+      "symbol": "UNI-USDT",
+      "display_symbol": "UNI",
+      "rank": 14,
+      "last_price": 4.92,
+      "change_24h_percent": -16.241,
+      "quote_volume_24h": 215342252.29,
+      "candidates": [
+        {
+          "id": "UNI-USDT-1h-11657e93f2e9",
+          "timeframe": "1h",
+          "direction": "short",
+          "score": 78,
+          "setup": "区间向下突破后的首次回踩候选",
+          "regime": "未分类",
+          "analysis_price": 4.94,
+          "trigger": 4.908,
+          "invalidation": 5.097,
+          "reasons": [
+            "20根K线区间向下突破并收在区间外",
+            "突破后2根内反抽原下沿但收盘受阻",
+            "等待反抽结构再次向下触发，不把突破当场追价"
+          ],
+          "data_as_of_ms": 1794679200000,
+          "source": "Binance U本位永续",
+          "stage": "waiting_confirmation",
+          "importance": "⭐ 较高关注",
+          "proximity": "距关注位约 0.30 ATR，已经较近",
+          "distance_atr": 0.3038936372269711,
+          "missing_confirmation": "等待回踩结束、重新突破关注位并出现跟进",
+          "notify_reason": "评分已达 78 分确认层",
+          "aligned_timeframes": [
+            "1h",
+            "4h"
+          ],
+          "chart_url": "charts/UNI-USDT-1h-11657e93f2e9.png"
+        },
+        {
+          "id": "UNI-USDT-4h-fc53a1e9d73e",
+          "timeframe": "4h",
+          "direction": "short",
+          "score": 78,
+          "setup": "区间向下突破后的首次回踩候选",
+          "regime": "未分类",
+          "analysis_price": 5.124,
+          "trigger": 5.091,
+          "invalidation": 5.641,
+          "reasons": [
+            "20根K线区间向下突破并收在区间外",
+            "突破后3根内反抽原下沿但收盘受阻",
+            "等待反抽结构再次向下触发，不把突破当场追价"
+          ],
+          "data_as_of_ms": 1794657600000,
+          "source": "Binance U本位永续",
+          "stage": "waiting_confirmation",
+          "importance": "⭐ 较高关注",
+          "proximity": "距关注位约 0.16 ATR，已经较近",
+          "distance_atr": 0.15580736543909096,
+          "missing_confirmation": "等待回踩结束、重新突破关注位并出现跟进",
+          "notify_reason": "评分已达 78 分确认层",
+          "aligned_timeframes": [
+            "1h",
+            "4h"
+          ],
+          "chart_url": "charts/UNI-USDT-4h-fc53a1e9d73e.png"
+        },
+        {
+          "id": "UNI-USDT-15m-f00d13da5758",
+          "timeframe": "15m",
+          "direction": "long",
+          "score": 73,
+          "setup": "区间下沿假突破反转候选",
+          "regime": "未分类",
+          "analysis_price": 4.925,
+          "trigger": 4.928,
+          "invalidation": 4.87,
+          "reasons": [
+            "价格刺破20根K线区间下沿后重新收回区间",
+            "从假突破最低点反弹 0.87 倍基准波幅",
+            "这是反转观察，不代表下根K线必然继续上涨"
+          ],
+          "data_as_of_ms": 1794684600000,
+          "source": "Binance U本位永续",
+          "stage": "forming",
+          "importance": "👀 提前留意",
+          "proximity": "距关注位约 0.04 ATR，已经较近",
+          "distance_atr": 0.04398826979472314,
+          "missing_confirmation": "等待反转方向确认，并保留区间边缘的价格优势",
+          "notify_reason": "形态尚在形成，但价格已进入0.75 ATR关注区",
+          "aligned_timeframes": [
+            "15m"
+          ],
+          "chart_url": "charts/UNI-USDT-15m-f00d13da5758.png"
+        }
+      ]
+    },
+    {
+      "symbol": "ENA-USDT",
+      "display_symbol": "ENA",
+      "rank": 15,
+      "last_price": 0.1193,
+      "change_24h_percent": -12.875,
+      "quote_volume_24h": 203414492.9506,
+      "candidates": [
+        {
+          "id": "ENA-USDT-15m-b429461dc699",
+          "timeframe": "15m",
+          "direction": "short",
+          "score": 88,
+          "setup": "低位旗形末端/紧凑下降蓄势候选",
+          "regime": "未分类",
+          "analysis_price": 0.11952,
+          "trigger": 0.11805,
+          "invalidation": 0.12143,
+          "reasons": [
+            "前段下行背景约 5.48ATR，随后形成8根紧凑停顿",
+            "高点推进 1.52ATR，6/7 段未明显上移",
+            "平均重叠 62%、区间宽度 2.82ATR；等待下破"
+          ],
+          "data_as_of_ms": 1794684600000,
+          "source": "Binance U本位永续",
+          "stage": "waiting_confirmation",
+          "importance": "🔥 重点关注",
+          "proximity": "距关注位约 0.90 ATR",
+          "distance_atr": 0.9018404907975457,
+          "missing_confirmation": "等待突破结构边界和后续跟进，不在形态内部猜方向",
+          "notify_reason": "评分已达 78 分确认层",
+          "aligned_timeframes": [
+            "15m",
+            "1h",
+            "4h"
+          ],
+          "chart_url": "charts/ENA-USDT-15m-b429461dc699.png"
+        },
+        {
+          "id": "ENA-USDT-1h-a320371dd3c3",
+          "timeframe": "1h",
+          "direction": "short",
+          "score": 78,
+          "setup": "区间向下突破后的首次回踩候选",
+          "regime": "未分类",
+          "analysis_price": 0.11916,
+          "trigger": 0.11802,
+          "invalidation": 0.12237,
+          "reasons": [
+            "20根K线区间向下突破并收在区间外",
+            "突破后2根内反抽原下沿但收盘受阻",
+            "等待反抽结构再次向下触发，不把突破当场追价"
+          ],
+          "data_as_of_ms": 1794679200000,
+          "source": "Binance U本位永续",
+          "stage": "waiting_confirmation",
+          "importance": "⭐ 较高关注",
+          "proximity": "距关注位约 0.44 ATR，已经较近",
+          "distance_atr": 0.4418604651162801,
+          "missing_confirmation": "等待回踩结束、重新突破关注位并出现跟进",
+          "notify_reason": "评分已达 78 分确认层",
+          "aligned_timeframes": [
+            "15m",
+            "1h",
+            "4h"
+          ],
+          "chart_url": "charts/ENA-USDT-1h-a320371dd3c3.png"
+        },
+        {
+          "id": "ENA-USDT-4h-ee2b1ea828a2",
+          "timeframe": "4h",
+          "direction": "short",
+          "score": 78,
+          "setup": "区间向下突破后的首次回踩候选",
+          "regime": "未分类",
+          "analysis_price": 0.12285,
+          "trigger": 0.12183,
+          "invalidation": 0.13175,
+          "reasons": [
+            "20根K线区间向下突破并收在区间外",
+            "突破后3根内反抽原下沿但收盘受阻",
+            "等待反抽结构再次向下触发，不把突破当场追价"
+          ],
+          "data_as_of_ms": 1794657600000,
+          "source": "Binance U本位永续",
+          "stage": "waiting_confirmation",
+          "importance": "⭐ 较高关注",
+          "proximity": "距关注位约 0.19 ATR，已经较近",
+          "distance_atr": 0.19169329073482563,
+          "missing_confirmation": "等待回踩结束、重新突破关注位并出现跟进",
+          "notify_reason": "评分已达 78 分确认层",
+          "aligned_timeframes": [
+            "15m",
+            "1h",
+            "4h"
+          ],
+          "chart_url": "charts/ENA-USDT-4h-ee2b1ea828a2.png"
+        }
+      ]
+    },
+    {
+      "symbol": "SUI-USDT",
+      "display_symbol": "SUI",
+      "rank": 16,
+      "last_price": 0.7281,
+      "change_24h_percent": -10.443,
+      "quote_volume_24h": 192903510.80621,
+      "candidates": [
+        {
+          "id": "SUI-USDT-1h-484791af07da",
+          "timeframe": "1h",
+          "direction": "short",
+          "score": 78,
+          "setup": "区间向下突破后的首次回踩候选",
+          "regime": "未分类",
+          "analysis_price": 0.7272,
+          "trigger": 0.7194,
+          "invalidation": 0.7387,
+          "reasons": [
+            "20根K线区间向下突破并收在区间外",
+            "突破后2根内反抽原下沿但收盘受阻",
+            "等待反抽结构再次向下触发，不把突破当场追价"
+          ],
+          "data_as_of_ms": 1794679200000,
+          "source": "Binance U本位永续",
+          "stage": "waiting_confirmation",
+          "importance": "⭐ 较高关注",
+          "proximity": "距关注位约 0.67 ATR，已经较近",
+          "distance_atr": 0.6703910614525068,
+          "missing_confirmation": "等待回踩结束、重新突破关注位并出现跟进",
+          "notify_reason": "评分已达 78 分确认层",
+          "aligned_timeframes": [
+            "1h"
+          ],
+          "chart_url": "charts/SUI-USDT-1h-484791af07da.png"
+        }
+      ]
+    },
+    {
+      "symbol": "BARD-USDT",
+      "display_symbol": "BARD",
+      "rank": 17,
+      "last_price": 0.1207,
+      "change_24h_percent": -13.29,
+      "quote_volume_24h": 116860087.4179,
+      "candidates": [
+        {
+          "id": "BARD-USDT-1h-4a873b58322f",
+          "timeframe": "1h",
+          "direction": "neutral",
+          "score": 74,
+          "setup": "长期横盘压缩/箱体末端",
+          "regime": "未分类",
+          "analysis_price": 0.121,
+          "trigger": 0.1732,
+          "invalidation": 0.1135,
+          "reasons": [
+            "连续 48 根K线方向效率仅 0.02",
+            "平均K线重叠率 77%，方向反转占比 54%",
+            "整个箱体高度约 6.4 倍中位K线波幅",
+            "等待箱体任一侧有效突破和跟进，不预判方向"
+          ],
+          "data_as_of_ms": 1794679200000,
+          "source": "Binance U本位永续",
+          "stage": "forming",
+          "importance": "👀 提前留意",
+          "proximity": "距关注位约 1.17 ATR",
+          "distance_atr": 1.1664074650077745,
+          "missing_confirmation": "等待任一边界突破，且后续完成K线给出跟进",
+          "notify_reason": "形态尚在形成，但价格已进入0.75 ATR关注区",
+          "aligned_timeframes": [
+            "1h"
+          ],
+          "chart_url": "charts/BARD-USDT-1h-4a873b58322f.png"
+        }
+      ]
+    },
+    {
+      "symbol": "ADA-USDT",
+      "display_symbol": "ADA",
+      "rank": 18,
+      "last_price": 0.1548,
+      "change_24h_percent": -9.843,
+      "quote_volume_24h": 170879256.9156,
+      "candidates": [
+        {
+          "id": "ADA-USDT-4h-ca5322cfe1e3",
+          "timeframe": "4h",
+          "direction": "short",
+          "score": 78,
+          "setup": "区间向下突破后的首次回踩候选",
+          "regime": "未分类",
+          "analysis_price": 0.1571,
+          "trigger": 0.1554,
+          "invalidation": 0.1655,
+          "reasons": [
+            "20根K线区间向下突破并收在区间外",
+            "突破后3根内反抽原下沿但收盘受阻",
+            "等待反抽结构再次向下触发，不把突破当场追价"
+          ],
+          "data_as_of_ms": 1794657600000,
+          "source": "Binance U本位永续",
+          "stage": "waiting_confirmation",
+          "importance": "⭐ 较高关注",
+          "proximity": "距关注位约 0.37 ATR，已经较近",
+          "distance_atr": 0.36598493003228877,
+          "missing_confirmation": "等待回踩结束、重新突破关注位并出现跟进",
+          "notify_reason": "评分已达 78 分确认层",
+          "aligned_timeframes": [
+            "1h",
+            "4h"
+          ],
+          "chart_url": "charts/ADA-USDT-4h-ca5322cfe1e3.png"
+        },
+        {
+          "id": "ADA-USDT-15m-f504fce7548b",
+          "timeframe": "15m",
+          "direction": "long",
+          "score": 83,
+          "setup": "区间下沿假突破反转 + 三次下推楔形共振",
+          "regime": "未分类",
+          "analysis_price": 0.155,
+          "trigger": 0.1551,
+          "invalidation": 0.1532,
+          "reasons": [
+            "价格刺破20根K线区间下沿后重新收回区间",
+            "三次下推 0.1657→0.162→0.1532",
+            "从假突破最低点反弹 1.20 倍基准波幅",
+            "这是反转观察，不代表下根K线必然继续上涨",
+            "三段推进尺寸 6.60ATR→8.47ATR→8.20ATR",
+            "两次可见回调 6.00ATR→2.33ATR；整体跨度 158 根K线；路径效率 0.18"
+          ],
+          "data_as_of_ms": 1794684600000,
+          "source": "Binance U本位永续",
+          "stage": "waiting_confirmation",
+          "importance": "⭐ 较高关注",
+          "proximity": "距关注位约 0.06 ATR，已经较近",
+          "distance_atr": 0.06230529595014881,
+          "missing_confirmation": "反转信号K已完成；只等关注位触发，若价格已走远则不追",
+          "notify_reason": "第三推后的反转信号K刚完成，在启动前提醒",
+          "aligned_timeframes": [
+            "15m"
+          ],
+          "chart_url": "charts/ADA-USDT-15m-f504fce7548b.png"
+        },
+        {
+          "id": "ADA-USDT-1h-491da1ee2c39",
+          "timeframe": "1h",
+          "direction": "short",
+          "score": 77,
+          "setup": "区间向下突破后的首次回踩候选",
+          "regime": "未分类",
+          "analysis_price": 0.155,
+          "trigger": 0.1537,
+          "invalidation": 0.1575,
+          "reasons": [
+            "20根K线区间向下突破并收在区间外",
+            "突破后2根内反抽原下沿但收盘受阻",
+            "等待反抽结构再次向下触发，不把突破当场追价"
+          ],
+          "data_as_of_ms": 1794679200000,
+          "source": "Binance U本位永续",
+          "stage": "forming",
+          "importance": "👀 提前留意",
+          "proximity": "距关注位约 0.56 ATR，已经较近",
+          "distance_atr": 0.5579399141630882,
+          "missing_confirmation": "等待回踩结束、重新突破关注位并出现跟进",
+          "notify_reason": "形态尚在形成，但价格已进入0.75 ATR关注区",
+          "aligned_timeframes": [
+            "1h",
+            "4h"
+          ],
+          "chart_url": "charts/ADA-USDT-1h-491da1ee2c39.png"
+        }
+      ]
+    },
+    {
+      "symbol": "INJ-USDT",
+      "display_symbol": "INJ",
+      "rank": 19,
+      "last_price": 7.264,
+      "change_24h_percent": -12.397,
+      "quote_volume_24h": 166144320.584,
+      "candidates": [
+        {
+          "id": "INJ-USDT-1h-0f055abe57e5",
+          "timeframe": "1h",
+          "direction": "short",
+          "score": 78,
+          "setup": "区间向下突破后的首次回踩候选",
+          "regime": "未分类",
+          "analysis_price": 7.3,
+          "trigger": 7.094,
+          "invalidation": 7.475,
+          "reasons": [
+            "20根K线区间向下突破并收在区间外",
+            "突破后2根内反抽原下沿但收盘受阻",
+            "等待反抽结构再次向下触发，不把突破当场追价"
+          ],
+          "data_as_of_ms": 1794679200000,
+          "source": "Binance U本位永续",
+          "stage": "waiting_confirmation",
+          "importance": "⭐ 较高关注",
+          "proximity": "距关注位约 1.07 ATR",
+          "distance_atr": 1.0720791048659875,
+          "missing_confirmation": "等待回踩结束、重新突破关注位并出现跟进",
+          "notify_reason": "评分已达 78 分确认层",
+          "aligned_timeframes": [
+            "1h"
+          ],
+          "chart_url": "charts/INJ-USDT-1h-0f055abe57e5.png"
+        },
+        {
+          "id": "INJ-USDT-4h-6fb76a899857",
+          "timeframe": "4h",
+          "direction": "neutral",
+          "score": 78,
+          "setup": "长期横盘压缩/箱体末端",
+          "regime": "未分类",
+          "analysis_price": 7.654,
+          "trigger": 8.598,
+          "invalidation": 7.144,
+          "reasons": [
+            "连续 60 根K线方向效率仅 0.02",
+            "平均K线重叠率 78%，方向反转占比 60%",
+            "整个箱体高度约 5.3 倍中位K线波幅",
+            "等待箱体任一侧有效突破和跟进，不预判方向"
+          ],
+          "data_as_of_ms": 1794657600000,
+          "source": "Binance U本位永续",
+          "stage": "waiting_confirmation",
+          "importance": "⭐ 较高关注",
+          "proximity": "距关注位约 1.58 ATR",
+          "distance_atr": 1.5762633286972638,
+          "missing_confirmation": "等待任一边界突破，且后续完成K线给出跟进",
+          "notify_reason": "评分已达 78 分确认层",
+          "aligned_timeframes": [
+            "4h"
+          ],
+          "chart_url": "charts/INJ-USDT-4h-6fb76a899857.png"
+        }
+      ]
+    },
+    {
+      "symbol": "BERA-USDT",
+      "display_symbol": "BERA",
+      "rank": 20,
+      "last_price": 0.0937,
+      "change_24h_percent": -13.641,
+      "quote_volume_24h": 140784504.03384,
+      "candidates": [
+        {
+          "id": "BERA-USDT-1h-4afc57bc97c9",
+          "timeframe": "1h",
+          "direction": "short",
+          "score": 94,
+          "setup": "放量启动后首次收敛/旗形候选",
+          "regime": "未分类",
+          "analysis_price": 0.0954,
+          "trigger": 0.0952,
+          "invalidation": 0.1061,
+          "reasons": [
+            "6根启动段位移 7.87 倍基准波幅",
+            "随后8根收敛区仅占启动区间 35%",
+            "收敛区保留了启动位移的 92%",
+            "启动段均量约为此前中位量的 10.38 倍"
+          ],
+          "data_as_of_ms": 1794679200000,
+          "source": "Binance U本位永续",
+          "stage": "waiting_confirmation",
+          "importance": "🔥 重点关注",
+          "proximity": "距关注位约 0.03 ATR，已经较近",
+          "distance_atr": 0.031620553359682495,
+          "missing_confirmation": "等待突破结构边界和后续跟进，不在形态内部猜方向",
+          "notify_reason": "评分已达 78 分确认层",
+          "aligned_timeframes": [
+            "15m",
+            "1h"
+          ],
+          "chart_url": "charts/BERA-USDT-1h-4afc57bc97c9.png"
+        },
+        {
+          "id": "BERA-USDT-15m-01b6977cba85",
+          "timeframe": "15m",
+          "direction": "short",
+          "score": 73,
+          "setup": "区间向下突破后的首次回踩候选",
+          "regime": "未分类",
+          "analysis_price": 0.0938,
+          "trigger": 0.0932,
+          "invalidation": 0.0949,
+          "reasons": [
+            "20根K线区间向下突破并收在区间外",
+            "突破后2根内反抽原下沿但收盘受阻",
+            "等待反抽结构再次向下触发，不把突破当场追价"
+          ],
+          "data_as_of_ms": 1794684600000,
+          "source": "Binance U本位永续",
+          "stage": "forming",
+          "importance": "👀 提前留意",
+          "proximity": "距关注位约 0.34 ATR，已经较近",
+          "distance_atr": 0.33898305084745206,
+          "missing_confirmation": "等待回踩结束、重新突破关注位并出现跟进",
+          "notify_reason": "形态尚在形成，但价格已进入0.75 ATR关注区",
+          "aligned_timeframes": [
+            "15m",
+            "1h"
+          ],
+          "chart_url": "charts/BERA-USDT-15m-01b6977cba85.png"
+        }
+      ]
+    },
+    {
+      "symbol": "IDOL-USDT",
+      "display_symbol": "IDOL",
+      "rank": 21,
+      "last_price": 0.016893,
+      "change_24h_percent": -17.041,
+      "quote_volume_24h": 70388675.209209,
+      "candidates": [
+        {
+          "id": "IDOL-USDT-15m-75c8de509d61",
+          "timeframe": "15m",
+          "direction": "short",
+          "score": 90,
+          "setup": "低位旗形末端/紧凑下降蓄势候选",
+          "regime": "未分类",
+          "analysis_price": 0.016936,
+          "trigger": 0.016702,
+          "invalidation": 0.018679,
+          "reasons": [
+            "前段下行背景约 4.53ATR，随后形成6根紧凑停顿",
+            "高点推进 2.08ATR，4/5 段未明显上移",
+            "平均重叠 81%、区间宽度 3.44ATR；等待下破"
+          ],
+          "data_as_of_ms": 1794684600000,
+          "source": "Binance U本位永续",
+          "stage": "waiting_confirmation",
+          "importance": "🔥 重点关注",
+          "proximity": "距关注位约 0.28 ATR，已经较近",
+          "distance_atr": 0.2774155305275615,
+          "missing_confirmation": "等待突破结构边界和后续跟进，不在形态内部猜方向",
+          "notify_reason": "评分已达 78 分确认层",
+          "aligned_timeframes": [
+            "15m",
+            "1h"
+          ],
+          "chart_url": "charts/IDOL-USDT-15m-75c8de509d61.png"
+        },
+        {
+          "id": "IDOL-USDT-1h-14f6994f0207",
+          "timeframe": "1h",
+          "direction": "short",
+          "score": 90,
+          "setup": "低位旗形末端/紧凑下降蓄势候选",
+          "regime": "未分类",
+          "analysis_price": 0.017229,
+          "trigger": 0.016601,
+          "invalidation": 0.021876,
+          "reasons": [
+            "前段下行背景约 7.65ATR，随后形成10根紧凑停顿",
+            "高点推进 2.12ATR，9/9 段未明显上移",
+            "平均重叠 85%、区间宽度 3.49ATR；等待下破"
+          ],
+          "data_as_of_ms": 1794679200000,
+          "source": "Binance U本位永续",
+          "stage": "waiting_confirmation",
+          "importance": "🔥 重点关注",
+          "proximity": "距关注位约 0.44 ATR，已经较近",
+          "distance_atr": 0.4425807815638324,
+          "missing_confirmation": "等待突破结构边界和后续跟进，不在形态内部猜方向",
+          "notify_reason": "评分已达 78 分确认层",
+          "aligned_timeframes": [
+            "15m",
+            "1h"
+          ],
+          "chart_url": "charts/IDOL-USDT-1h-14f6994f0207.png"
+        }
+      ]
+    },
+    {
+      "symbol": "LINK-USDT",
+      "display_symbol": "LINK",
+      "rank": 22,
+      "last_price": 9.099,
+      "change_24h_percent": -9.173,
+      "quote_volume_24h": 147353655.497,
+      "candidates": [
+        {
+          "id": "LINK-USDT-15m-b2af1cf73f09",
+          "timeframe": "15m",
+          "direction": "short",
+          "score": 87,
+          "setup": "低位旗形末端/紧凑下降蓄势候选",
+          "regime": "未分类",
+          "analysis_price": 9.106,
+          "trigger": 9.007,
+          "invalidation": 9.213,
+          "reasons": [
+            "前段下行背景约 6.24ATR，随后形成8根紧凑停顿",
+            "高点推进 1.56ATR，6/7 段未明显上移",
+            "平均重叠 59%、区间宽度 3.12ATR；等待下破"
+          ],
+          "data_as_of_ms": 1794684600000,
+          "source": "Binance U本位永续",
+          "stage": "waiting_confirmation",
+          "importance": "🔥 重点关注",
+          "proximity": "距关注位约 1.06 ATR",
+          "distance_atr": 1.0571276027763001,
+          "missing_confirmation": "等待突破结构边界和后续跟进，不在形态内部猜方向",
+          "notify_reason": "评分已达 78 分确认层",
+          "aligned_timeframes": [
+            "15m",
+            "1h",
+            "4h"
+          ],
+          "chart_url": "charts/LINK-USDT-15m-b2af1cf73f09.png"
+        },
+        {
+          "id": "LINK-USDT-1h-e9256fbbad06",
+          "timeframe": "1h",
+          "direction": "short",
+          "score": 78,
+          "setup": "区间向下突破后的首次回踩候选",
+          "regime": "未分类",
+          "analysis_price": 9.096,
+          "trigger": 9.013,
+          "invalidation": 9.238,
+          "reasons": [
+            "20根K线区间向下突破并收在区间外",
+            "突破后2根内反抽原下沿但收盘受阻",
+            "等待反抽结构再次向下触发，不把突破当场追价"
+          ],
+          "data_as_of_ms": 1794679200000,
+          "source": "Binance U本位永续",
+          "stage": "waiting_confirmation",
+          "importance": "⭐ 较高关注",
+          "proximity": "距关注位约 0.60 ATR，已经较近",
+          "distance_atr": 0.6014492753623206,
+          "missing_confirmation": "等待回踩结束、重新突破关注位并出现跟进",
+          "notify_reason": "评分已达 78 分确认层",
+          "aligned_timeframes": [
+            "15m",
+            "1h",
+            "4h"
+          ],
+          "chart_url": "charts/LINK-USDT-1h-e9256fbbad06.png"
+        },
+        {
+          "id": "LINK-USDT-4h-efd3c3cc7126",
+          "timeframe": "4h",
+          "direction": "short",
+          "score": 78,
+          "setup": "区间向下突破后的首次回踩候选",
+          "regime": "未分类",
+          "analysis_price": 9.271,
+          "trigger": 9.172,
+          "invalidation": 9.721,
+          "reasons": [
+            "20根K线区间向下突破并收在区间外",
+            "突破后3根内反抽原下沿但收盘受阻",
+            "等待反抽结构再次向下触发，不把突破当场追价"
+          ],
+          "data_as_of_ms": 1794657600000,
+          "source": "Binance U本位永续",
+          "stage": "waiting_confirmation",
+          "importance": "⭐ 较高关注",
+          "proximity": "距关注位约 0.37 ATR，已经较近",
+          "distance_atr": 0.37009345794392573,
+          "missing_confirmation": "等待回踩结束、重新突破关注位并出现跟进",
+          "notify_reason": "评分已达 78 分确认层",
+          "aligned_timeframes": [
+            "15m",
+            "1h",
+            "4h"
+          ],
+          "chart_url": "charts/LINK-USDT-4h-efd3c3cc7126.png"
+        }
+      ]
+    },
+    {
+      "symbol": "KAVA-USDT",
+      "display_symbol": "KAVA",
+      "rank": 23,
+      "last_price": 0.02911,
+      "change_24h_percent": -57.279,
+      "quote_volume_24h": 173092509.290399,
+      "candidates": [
+        {
+          "id": "KAVA-USDT-15m-8d8d67e24b86",
+          "timeframe": "15m",
+          "direction": "short",
+          "score": 85,
+          "setup": "低位旗形末端/紧凑下降蓄势候选",
+          "regime": "未分类",
+          "analysis_price": 0.02916,
+          "trigger": 0.02575,
+          "invalidation": 0.03488,
+          "reasons": [
+            "前段下行背景约 2.63ATR，随后形成12根紧凑停顿",
+            "高点推进 1.92ATR，10/11 段未明显上移",
+            "平均重叠 76%、区间宽度 3.18ATR；等待下破"
+          ],
+          "data_as_of_ms": 1794684600000,
+          "source": "Binance U本位永续",
+          "stage": "waiting_confirmation",
+          "importance": "🔥 重点关注",
+          "proximity": "距关注位约 1.53 ATR",
+          "distance_atr": 1.526410026857654,
+          "missing_confirmation": "等待突破结构边界和后续跟进，不在形态内部猜方向",
+          "notify_reason": "评分已达 78 分确认层",
+          "aligned_timeframes": [
+            "15m"
+          ],
+          "chart_url": "charts/KAVA-USDT-15m-8d8d67e24b86.png"
+        }
+      ]
+    },
+    {
+      "symbol": "AVAX-USDT",
+      "display_symbol": "AVAX",
+      "rank": 24,
+      "last_price": 7.441,
+      "change_24h_percent": -11.816,
+      "quote_volume_24h": 135901877.636,
+      "candidates": [
+        {
+          "id": "AVAX-USDT-15m-22df59969229",
+          "timeframe": "15m",
+          "direction": "short",
+          "score": 88,
+          "setup": "低位旗形末端/紧凑下降蓄势候选",
+          "regime": "未分类",
+          "analysis_price": 7.452,
+          "trigger": 7.387,
+          "invalidation": 7.534,
+          "reasons": [
+            "前段下行背景约 8.56ATR，随后形成8根紧凑停顿",
+            "高点推进 1.36ATR，7/7 段未明显上移",
+            "平均重叠 67%、区间宽度 2.49ATR；等待下破"
+          ],
+          "data_as_of_ms": 1794684600000,
+          "source": "Binance U本位永续",
+          "stage": "waiting_confirmation",
+          "importance": "🔥 重点关注",
+          "proximity": "距关注位约 0.80 ATR",
+          "distance_atr": 0.7975460122699436,
+          "missing_confirmation": "等待突破结构边界和后续跟进，不在形态内部猜方向",
+          "notify_reason": "评分已达 78 分确认层",
+          "aligned_timeframes": [
+            "15m",
+            "1h"
+          ],
+          "chart_url": "charts/AVAX-USDT-15m-22df59969229.png"
+        },
+        {
+          "id": "AVAX-USDT-1h-260e5197213b",
+          "timeframe": "1h",
+          "direction": "short",
+          "score": 78,
+          "setup": "区间向下突破后的首次回踩候选",
+          "regime": "未分类",
+          "analysis_price": 7.451,
+          "trigger": 7.419,
+          "invalidation": 7.926,
+          "reasons": [
+            "20根K线区间向下突破并收在区间外",
+            "突破后5根内反抽原下沿但收盘受阻",
+            "等待反抽结构再次向下触发，不把突破当场追价"
+          ],
+          "data_as_of_ms": 1794679200000,
+          "source": "Binance U本位永续",
+          "stage": "waiting_confirmation",
+          "importance": "⭐ 较高关注",
+          "proximity": "距关注位约 0.27 ATR，已经较近",
+          "distance_atr": 0.27268853855986375,
+          "missing_confirmation": "等待回踩结束、重新突破关注位并出现跟进",
+          "notify_reason": "评分已达 78 分确认层",
+          "aligned_timeframes": [
+            "15m",
+            "1h"
+          ],
+          "chart_url": "charts/AVAX-USDT-1h-260e5197213b.png"
+        }
+      ]
+    },
+    {
+      "symbol": "EVAA-USDT",
+      "display_symbol": "EVAA",
+      "rank": 25,
+      "last_price": 1.6846,
+      "change_24h_percent": 55.852,
+      "quote_volume_24h": 244665584.15562,
+      "candidates": [
+        {
+          "id": "EVAA-USDT-15m-85a9de922b0c",
+          "timeframe": "15m",
+          "direction": "short",
+          "score": 84,
+          "setup": "放量启动后首次收敛/旗形候选",
+          "regime": "未分类",
+          "analysis_price": 1.6832,
+          "trigger": 1.604,
+          "invalidation": 1.7775,
+          "reasons": [
+            "5根启动段位移 3.36 倍基准波幅",
+            "随后3根收敛区仅占启动区间 25%",
+            "收敛区保留了启动位移的 73%",
+            "启动段均量约为此前中位量的 3.58 倍"
+          ],
+          "data_as_of_ms": 1794684600000,
+          "source": "Binance U本位永续",
+          "stage": "waiting_confirmation",
+          "importance": "⭐ 较高关注",
+          "proximity": "距关注位约 0.44 ATR，已经较近",
+          "distance_atr": 0.44080814827183123,
+          "missing_confirmation": "等待突破结构边界和后续跟进，不在形态内部猜方向",
+          "notify_reason": "评分已达 78 分确认层",
+          "aligned_timeframes": [
+            "15m"
+          ],
+          "chart_url": "charts/EVAA-USDT-15m-85a9de922b0c.png"
+        }
+      ]
+    },
+    {
+      "symbol": "TAO-USDT",
+      "display_symbol": "TAO",
+      "rank": 26,
+      "last_price": 193.4,
+      "change_24h_percent": -11.572,
+      "quote_volume_24h": 125823246.05,
+      "candidates": [
+        {
+          "id": "TAO-USDT-15m-558e45b8650c",
+          "timeframe": "15m",
+          "direction": "short",
+          "score": 88,
+          "setup": "低位旗形末端/紧凑下降蓄势候选",
+          "regime": "未分类",
+          "analysis_price": 193.65,
+          "trigger": 191.94,
+          "invalidation": 196.21,
+          "reasons": [
+            "前段下行背景约 7.16ATR，随后形成8根紧凑停顿",
+            "高点推进 1.59ATR，6/7 段未明显上移",
+            "平均重叠 63%、区间宽度 2.75ATR；等待下破"
+          ],
+          "data_as_of_ms": 1794684600000,
+          "source": "Binance U本位永续",
+          "stage": "waiting_confirmation",
+          "importance": "🔥 重点关注",
+          "proximity": "距关注位约 0.74 ATR，已经较近",
+          "distance_atr": 0.7436399217221178,
+          "missing_confirmation": "等待突破结构边界和后续跟进，不在形态内部猜方向",
+          "notify_reason": "评分已达 78 分确认层",
+          "aligned_timeframes": [
+            "15m",
+            "1h"
+          ],
+          "chart_url": "charts/TAO-USDT-15m-558e45b8650c.png"
+        },
+        {
+          "id": "TAO-USDT-1h-fa3369f47280",
+          "timeframe": "1h",
+          "direction": "short",
+          "score": 78,
+          "setup": "区间向下突破后的首次回踩候选",
+          "regime": "未分类",
+          "analysis_price": 193.84,
+          "trigger": 191.15,
+          "invalidation": 197.09,
+          "reasons": [
+            "20根K线区间向下突破并收在区间外",
+            "突破后2根内反抽原下沿但收盘受阻",
+            "等待反抽结构再次向下触发，不把突破当场追价"
+          ],
+          "data_as_of_ms": 1794679200000,
+          "source": "Binance U本位永续",
+          "stage": "waiting_confirmation",
+          "importance": "⭐ 较高关注",
+          "proximity": "距关注位约 0.77 ATR",
+          "distance_atr": 0.7683518994572972,
+          "missing_confirmation": "等待回踩结束、重新突破关注位并出现跟进",
+          "notify_reason": "评分已达 78 分确认层",
+          "aligned_timeframes": [
+            "15m",
+            "1h"
+          ],
+          "chart_url": "charts/TAO-USDT-1h-fa3369f47280.png"
+        }
+      ]
+    },
+    {
+      "symbol": "PUMP-USDT",
+      "display_symbol": "PUMP",
+      "rank": 27,
+      "last_price": 0.002944,
+      "change_24h_percent": -16.766,
+      "quote_volume_24h": 126703447.217324,
+      "candidates": [
+        {
+          "id": "PUMP-USDT-15m-8f65556f07eb",
+          "timeframe": "15m",
+          "direction": "long",
+          "score": 86,
+          "setup": "三次下推楔形末端（等待向上突破）",
+          "regime": "未分类",
+          "analysis_price": 0.00295,
+          "trigger": 0.002953,
+          "invalidation": 0.002924,
+          "reasons": [
+            "三次下推 0.003205→0.002975→0.002924",
+            "三段推进尺寸 5.79ATR→6.95ATR→3.40ATR",
+            "两次可见回调 1.48ATR→2.19ATR；整体跨度 25 根K线；路径效率 0.58",
+            "第三推后第 1 根K线出现多头反转信号；关注位固定在该K线高点"
+          ],
+          "data_as_of_ms": 1794684600000,
+          "source": "Binance U本位永续",
+          "stage": "waiting_confirmation",
+          "importance": "🔥 重点关注",
+          "proximity": "距关注位约 0.07 ATR，已经较近",
+          "distance_atr": 0.06674082313681792,
+          "missing_confirmation": "反转信号K已完成；只等关注位触发，若价格已走远则不追",
+          "notify_reason": "第三推后的反转信号K刚完成，在启动前提醒",
+          "aligned_timeframes": [
+            "15m"
+          ],
+          "chart_url": "charts/PUMP-USDT-15m-8f65556f07eb.png"
+        },
+        {
+          "id": "PUMP-USDT-1h-c90e307fd25e",
+          "timeframe": "1h",
+          "direction": "short",
+          "score": 78,
+          "setup": "区间向下突破后的首次回踩候选",
+          "regime": "未分类",
+          "analysis_price": 0.002964,
+          "trigger": 0.002935,
+          "invalidation": 0.003267,
+          "reasons": [
+            "20根K线区间向下突破并收在区间外",
+            "突破后6根内反抽原下沿但收盘受阻",
+            "等待反抽结构再次向下触发，不把突破当场追价"
+          ],
+          "data_as_of_ms": 1794679200000,
+          "source": "Binance U本位永续",
+          "stage": "waiting_confirmation",
+          "importance": "⭐ 较高关注",
+          "proximity": "距关注位约 0.40 ATR，已经较近",
+          "distance_atr": 0.3988995873452537,
+          "missing_confirmation": "等待回踩结束、重新突破关注位并出现跟进",
+          "notify_reason": "评分已达 78 分确认层",
+          "aligned_timeframes": [
+            "1h"
+          ],
+          "chart_url": "charts/PUMP-USDT-1h-c90e307fd25e.png"
+        }
+      ]
+    },
+    {
+      "symbol": "JCT-USDT",
+      "display_symbol": "JCT",
+      "rank": 28,
+      "last_price": 0.002044,
+      "change_24h_percent": -0.487,
+      "quote_volume_24h": 88089886.368777,
+      "candidates": [
+        {
+          "id": "JCT-USDT-15m-7c8c80fdcee3",
+          "timeframe": "15m",
+          "direction": "long",
+          "score": 78,
+          "setup": "区间向上突破后的首次回踩候选",
+          "regime": "未分类",
+          "analysis_price": 0.002034,
+          "trigger": 0.00215,
+          "invalidation": 0.001976,
+          "reasons": [
+            "20根K线区间向上突破并收在区间外",
+            "突破后6根内回踩原上沿但收盘守住",
+            "等待回踩结构再次向上触发，不把突破当场追价"
+          ],
+          "data_as_of_ms": 1794684600000,
+          "source": "Binance U本位永续",
+          "stage": "waiting_confirmation",
+          "importance": "⭐ 较高关注",
+          "proximity": "距关注位约 1.74 ATR",
+          "distance_atr": 1.7365269461077875,
+          "missing_confirmation": "等待回踩结束、重新突破关注位并出现跟进",
+          "notify_reason": "评分已达 78 分确认层",
+          "aligned_timeframes": [
+            "15m"
+          ],
+          "chart_url": "charts/JCT-USDT-15m-7c8c80fdcee3.png"
+        },
+        {
+          "id": "JCT-USDT-1h-cf59b9a72df5",
+          "timeframe": "1h",
+          "direction": "neutral",
+          "score": 73,
+          "setup": "长期横盘压缩/箱体末端",
+          "regime": "未分类",
+          "analysis_price": 0.002041,
+          "trigger": 0.002549,
+          "invalidation": 0.001805,
+          "reasons": [
+            "连续 48 根K线方向效率仅 0.08",
+            "平均K线重叠率 76%，方向反转占比 35%",
+            "整个箱体高度约 4.7 倍中位K线波幅",
+            "等待箱体任一侧有效突破和跟进，不预判方向"
+          ],
+          "data_as_of_ms": 1794679200000,
+          "source": "Binance U本位永续",
+          "stage": "forming",
+          "importance": "👀 提前留意",
+          "proximity": "距关注位约 1.93 ATR",
+          "distance_atr": 1.9296811120196236,
+          "missing_confirmation": "等待任一边界突破，且后续完成K线给出跟进",
+          "notify_reason": "形态尚在形成，但价格已进入0.75 ATR关注区",
+          "aligned_timeframes": [
+            "1h"
+          ],
+          "chart_url": "charts/JCT-USDT-1h-cf59b9a72df5.png"
+        }
+      ]
+    },
+    {
+      "symbol": "WLD-USDT",
+      "display_symbol": "WLD",
+      "rank": 29,
+      "last_price": 0.2604,
+      "change_24h_percent": -13.718,
+      "quote_volume_24h": 117259376.7829,
+      "candidates": [
+        {
+          "id": "WLD-USDT-1h-ec0b702119ea",
+          "timeframe": "1h",
+          "direction": "short",
+          "score": 78,
+          "setup": "区间向下突破后的首次回踩候选",
+          "regime": "未分类",
+          "analysis_price": 0.2626,
+          "trigger": 0.2596,
+          "invalidation": 0.2689,
+          "reasons": [
+            "20根K线区间向下突破并收在区间外",
+            "突破后2根内反抽原下沿但收盘受阻",
+            "等待反抽结构再次向下触发，不把突破当场追价"
+          ],
+          "data_as_of_ms": 1794679200000,
+          "source": "Binance U本位永续",
+          "stage": "waiting_confirmation",
+          "importance": "⭐ 较高关注",
+          "proximity": "距关注位约 0.56 ATR，已经较近",
+          "distance_atr": 0.5576208178438674,
+          "missing_confirmation": "等待回踩结束、重新突破关注位并出现跟进",
+          "notify_reason": "评分已达 78 分确认层",
+          "aligned_timeframes": [
+            "1h"
+          ],
+          "chart_url": "charts/WLD-USDT-1h-ec0b702119ea.png"
+        }
+      ]
+    },
+    {
+      "symbol": "AAVE-USDT",
+      "display_symbol": "AAVE",
+      "rank": 30,
+      "last_price": 102.1,
+      "change_24h_percent": -9.814,
+      "quote_volume_24h": 101083089.059,
+      "candidates": [
+        {
+          "id": "AAVE-USDT-15m-03b434d27fd0",
+          "timeframe": "15m",
+          "direction": "long",
+          "score": 86,
+          "setup": "三次下推楔形末端（等待向上突破）",
+          "regime": "未分类",
+          "analysis_price": 102.22,
+          "trigger": 102.3,
+          "invalidation": 101.31,
+          "reasons": [
+            "三次下推 106.95→103.61→101.31",
+            "三段推进尺寸 5.57ATR→4.62ATR→3.33ATR",
+            "两次可见回调 1.18ATR→0.96ATR；整体跨度 43 根K线；路径效率 0.37",
+            "第三推后第 1 根K线出现多头反转信号；关注位固定在该K线高点"
+          ],
+          "data_as_of_ms": 1794684600000,
+          "source": "Binance U本位永续",
+          "stage": "waiting_confirmation",
+          "importance": "🔥 重点关注",
+          "proximity": "距关注位约 0.07 ATR，已经较近",
+          "distance_atr": 0.07497656982192884,
+          "missing_confirmation": "反转信号K已完成；只等关注位触发，若价格已走远则不追",
+          "notify_reason": "第三推后的反转信号K刚完成，在启动前提醒",
+          "aligned_timeframes": [
+            "15m"
+          ],
+          "chart_url": "charts/AAVE-USDT-15m-03b434d27fd0.png"
+        },
+        {
+          "id": "AAVE-USDT-4h-55a788573d77",
+          "timeframe": "4h",
+          "direction": "short",
+          "score": 78,
+          "setup": "区间向下突破后的首次回踩候选",
+          "regime": "未分类",
+          "analysis_price": 104.22,
+          "trigger": 102.72,
+          "invalidation": 110.6,
+          "reasons": [
+            "20根K线区间向下突破并收在区间外",
+            "突破后3根内反抽原下沿但收盘受阻",
+            "等待反抽结构再次向下触发，不把突破当场追价"
+          ],
+          "data_as_of_ms": 1794657600000,
+          "source": "Binance U本位永续",
+          "stage": "waiting_confirmation",
+          "importance": "⭐ 较高关注",
+          "proximity": "距关注位约 0.45 ATR，已经较近",
+          "distance_atr": 0.45235223160434285,
+          "missing_confirmation": "等待回踩结束、重新突破关注位并出现跟进",
+          "notify_reason": "评分已达 78 分确认层",
+          "aligned_timeframes": [
+            "4h"
+          ],
+          "chart_url": "charts/AAVE-USDT-4h-55a788573d77.png"
+        }
+      ]
+    }
+  ],
+  "disclaimer": "仅供价格行为研究与计划，不构成收益承诺、投资建议或自动下单指令。规则匹配度不是胜率。"
+}
